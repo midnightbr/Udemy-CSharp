@@ -1,0 +1,13 @@
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\bin\Debug\netcoreapp3.1\TiposBasicos.exe
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\bin\Debug\netcoreapp3.1\TiposBasicos.deps.json
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\bin\Debug\netcoreapp3.1\TiposBasicos.runtimeconfig.json
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\bin\Debug\netcoreapp3.1\TiposBasicos.runtimeconfig.dev.json
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\bin\Debug\netcoreapp3.1\TiposBasicos.dll
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\bin\Debug\netcoreapp3.1\TiposBasicos.pdb
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.csproj.AssemblyReference.cache
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.AssemblyInfoInputs.cache
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.AssemblyInfo.cs
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.csproj.CoreCompileInputs.cache
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.dll
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.pdb
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\TiposBasicos\TiposBasicos\obj\Debug\netcoreapp3.1\TiposBasicos.genruntimeconfig.cache
