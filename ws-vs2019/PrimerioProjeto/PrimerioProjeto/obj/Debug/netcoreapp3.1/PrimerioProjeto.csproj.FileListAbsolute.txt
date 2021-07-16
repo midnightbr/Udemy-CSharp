@@ -1,0 +1,13 @@
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\bin\Debug\netcoreapp3.1\PrimerioProjeto.exe
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\bin\Debug\netcoreapp3.1\PrimerioProjeto.deps.json
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\bin\Debug\netcoreapp3.1\PrimerioProjeto.runtimeconfig.json
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\bin\Debug\netcoreapp3.1\PrimerioProjeto.runtimeconfig.dev.json
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\bin\Debug\netcoreapp3.1\PrimerioProjeto.dll
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\bin\Debug\netcoreapp3.1\PrimerioProjeto.pdb
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.csproj.AssemblyReference.cache
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.AssemblyInfoInputs.cache
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.AssemblyInfo.cs
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.dll
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.pdb
+C:\Users\Midnight\Desktop\CSharp\ws-vs2019\PrimerioProjeto\PrimerioProjeto\obj\Debug\netcoreapp3.1\PrimerioProjeto.genruntimeconfig.cache
