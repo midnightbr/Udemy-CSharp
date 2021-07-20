@@ -1,0 +1,13 @@
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/bin/Debug/netcoreapp3.1/TiposBasicos2
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/bin/Debug/netcoreapp3.1/TiposBasicos2.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/bin/Debug/netcoreapp3.1/TiposBasicos2.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/bin/Debug/netcoreapp3.1/TiposBasicos2.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/bin/Debug/netcoreapp3.1/TiposBasicos2.dll
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/bin/Debug/netcoreapp3.1/TiposBasicos2.pdb
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.dll
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.pdb
+/home/marcos/Documentos/CSharp/ws-rider/TiposBasicos2/TiposBasicos2/obj/Debug/netcoreapp3.1/TiposBasicos2.genruntimeconfig.cache
