@@ -1,11 +1,8 @@
 ﻿using System;
 
-namespace TiposBasicos2
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace TiposBasicos2 {
+    class Program {
+        static void Main(string[] args) {
             // Guarda valores verdadeiro ou falso
             bool completo = false;
             
