@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Concatenacao_Placeholders_Interpolacao/1.0.0": {
+        "runtime": {
+          "Concatenacao_Placeholders_Interpolacao.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Concatenacao_Placeholders_Interpolacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
