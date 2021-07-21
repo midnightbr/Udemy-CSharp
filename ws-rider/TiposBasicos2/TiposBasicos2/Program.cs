@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace TiposBasicos2 {
     class Program {
@@ -46,6 +47,19 @@ namespace TiposBasicos2 {
             Console.WriteLine(max);
             Console.WriteLine(n3);
             Console.WriteLine(n4);
+            
+            /*
+             * Suponhamos que queiramos imprimir um valor do tipo double,
+             * mais com apenas as duas primeiras classes decimais, como fazer?
+             * Segue o exemplo a abaixo de como fazer esse procedimento.
+             */
+            double saldo = 105.56982;
+            Console.WriteLine(saldo);
+            Console.WriteLine(saldo.ToString("F3")); // "F" delimita a quantidade de casas decimais que queremos
+            
+            // Para poder trocar a "," no separador de decimais pelo "." basta seguir o exemplo abaixo.
+            // Primeiro necessita-se do using System.Globalization no começo do programa.
+            Console.WriteLine(saldo.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
