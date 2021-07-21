@@ -1,0 +1,13 @@
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/bin/Debug/netcoreapp3.1/Exercicio001
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/bin/Debug/netcoreapp3.1/Exercicio001.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/bin/Debug/netcoreapp3.1/Exercicio001.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/bin/Debug/netcoreapp3.1/Exercicio001.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/bin/Debug/netcoreapp3.1/Exercicio001.dll
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/bin/Debug/netcoreapp3.1/Exercicio001.pdb
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.dll
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.pdb
+/home/marcos/Documentos/CSharp/ws-rider/Exercicio001/Exercicio001/obj/Debug/netcoreapp3.1/Exercicio001.genruntimeconfig.cache
