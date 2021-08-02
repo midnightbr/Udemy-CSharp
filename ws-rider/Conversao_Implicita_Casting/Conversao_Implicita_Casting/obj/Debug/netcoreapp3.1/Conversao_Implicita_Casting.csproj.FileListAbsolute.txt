@@ -1,0 +1,13 @@
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/bin/Debug/netcoreapp3.1/Conversao_Implicita_Casting
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/bin/Debug/netcoreapp3.1/Conversao_Implicita_Casting.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/bin/Debug/netcoreapp3.1/Conversao_Implicita_Casting.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/bin/Debug/netcoreapp3.1/Conversao_Implicita_Casting.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/bin/Debug/netcoreapp3.1/Conversao_Implicita_Casting.dll
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/bin/Debug/netcoreapp3.1/Conversao_Implicita_Casting.pdb
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.dll
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.pdb
+/home/marcos/Documentos/CSharp/ws-rider/Conversao_Implicita_Casting/Conversao_Implicita_Casting/obj/Debug/netcoreapp3.1/Conversao_Implicita_Casting.genruntimeconfig.cache
