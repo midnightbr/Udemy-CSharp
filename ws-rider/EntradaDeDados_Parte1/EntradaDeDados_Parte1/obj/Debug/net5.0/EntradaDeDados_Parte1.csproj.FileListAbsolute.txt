@@ -1,0 +1,16 @@
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/EntradaDeDados_Parte1
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/EntradaDeDados_Parte1.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/EntradaDeDados_Parte1.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/EntradaDeDados_Parte1.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/EntradaDeDados_Parte1.dll
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/ref/EntradaDeDados_Parte1.dll
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/bin/Debug/net5.0/EntradaDeDados_Parte1.pdb
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.dll
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/ref/EntradaDeDados_Parte1.dll
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.pdb
+/home/marcos/Documentos/CSharp/ws-rider/EntradaDeDados_Parte1/EntradaDeDados_Parte1/obj/Debug/net5.0/EntradaDeDados_Parte1.genruntimeconfig.cache
