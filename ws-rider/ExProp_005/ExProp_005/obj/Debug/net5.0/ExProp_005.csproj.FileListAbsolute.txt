@@ -1,0 +1,16 @@
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ExProp_005
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ExProp_005.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ExProp_005.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ExProp_005.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ExProp_005.dll
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ref/ExProp_005.dll
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/bin/Debug/net5.0/ExProp_005.pdb
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.dll
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ref/ExProp_005.dll
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.pdb
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_005/ExProp_005/obj/Debug/net5.0/ExProp_005.genruntimeconfig.cache
