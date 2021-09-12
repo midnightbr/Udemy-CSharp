@@ -1,0 +1,14 @@
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/bin/Debug/netcoreapp3.1/EstruturasCondicionais
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/bin/Debug/netcoreapp3.1/EstruturasCondicionais.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/bin/Debug/netcoreapp3.1/EstruturasCondicionais.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/bin/Debug/netcoreapp3.1/EstruturasCondicionais.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/bin/Debug/netcoreapp3.1/EstruturasCondicionais.dll
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/bin/Debug/netcoreapp3.1/EstruturasCondicionais.pdb
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.dll
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.pdb
+/home/marcos/Documentos/CSharp/ws-rider/EstruturasCondicionais/EstruturasCondicionais/obj/Debug/netcoreapp3.1/EstruturasCondicionais.genruntimeconfig.cache
