@@ -1,0 +1,14 @@
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/bin/Debug/netcoreapp3.1/ExProp_008
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/bin/Debug/netcoreapp3.1/ExProp_008.deps.json
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/bin/Debug/netcoreapp3.1/ExProp_008.runtimeconfig.json
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/bin/Debug/netcoreapp3.1/ExProp_008.runtimeconfig.dev.json
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/bin/Debug/netcoreapp3.1/ExProp_008.dll
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/bin/Debug/netcoreapp3.1/ExProp_008.pdb
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.csproj.AssemblyReference.cache
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.AssemblyInfoInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.AssemblyInfo.cs
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.dll
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.pdb
+/home/marcos/Documentos/CSharp/ws-rider/ExProp_008/ExProp_008/obj/Debug/netcoreapp3.1/ExProp_008.genruntimeconfig.cache
