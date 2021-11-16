@@ -1,0 +1,14 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/bin/Debug/netcoreapp3.1/EstruturaWhile
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/bin/Debug/netcoreapp3.1/EstruturaWhile.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/bin/Debug/netcoreapp3.1/EstruturaWhile.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/bin/Debug/netcoreapp3.1/EstruturaWhile.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/bin/Debug/netcoreapp3.1/EstruturaWhile.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/bin/Debug/netcoreapp3.1/EstruturaWhile.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/EstruturaWhile/EstruturaWhile/obj/Debug/netcoreapp3.1/EstruturaWhile.genruntimeconfig.cache
