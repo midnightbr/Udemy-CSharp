@@ -1,0 +1,14 @@
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/bin/Debug/netcoreapp3.1/NumeroMaior
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/bin/Debug/netcoreapp3.1/NumeroMaior.deps.json
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/bin/Debug/netcoreapp3.1/NumeroMaior.runtimeconfig.json
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/bin/Debug/netcoreapp3.1/NumeroMaior.runtimeconfig.dev.json
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/bin/Debug/netcoreapp3.1/NumeroMaior.dll
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/bin/Debug/netcoreapp3.1/NumeroMaior.pdb
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.csproj.AssemblyReference.cache
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.AssemblyInfoInputs.cache
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.AssemblyInfo.cs
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.csproj.CoreCompileInputs.cache
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.dll
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.pdb
+/home/midnight/RiderProjects/NumeroMaior/NumeroMaior/obj/Debug/netcoreapp3.1/NumeroMaior.genruntimeconfig.cache
