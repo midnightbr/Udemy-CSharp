@@ -1,0 +1,14 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/bin/Debug/netcoreapp3.1/ExProp_14
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/bin/Debug/netcoreapp3.1/ExProp_14.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/bin/Debug/netcoreapp3.1/ExProp_14.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/bin/Debug/netcoreapp3.1/ExProp_14.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/bin/Debug/netcoreapp3.1/ExProp_14.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/bin/Debug/netcoreapp3.1/ExProp_14.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_14/ExProp_14/obj/Debug/netcoreapp3.1/ExProp_14.genruntimeconfig.cache
