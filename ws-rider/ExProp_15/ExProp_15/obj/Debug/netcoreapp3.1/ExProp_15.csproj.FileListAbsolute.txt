@@ -1,0 +1,14 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/bin/Debug/netcoreapp3.1/ExProp_15
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/bin/Debug/netcoreapp3.1/ExProp_15.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/bin/Debug/netcoreapp3.1/ExProp_15.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/bin/Debug/netcoreapp3.1/ExProp_15.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/bin/Debug/netcoreapp3.1/ExProp_15.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/bin/Debug/netcoreapp3.1/ExProp_15.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_15/ExProp_15/obj/Debug/netcoreapp3.1/ExProp_15.genruntimeconfig.cache
