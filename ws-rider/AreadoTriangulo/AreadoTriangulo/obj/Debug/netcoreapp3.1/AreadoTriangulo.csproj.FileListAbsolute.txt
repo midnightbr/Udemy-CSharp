@@ -1,0 +1,14 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/bin/Debug/netcoreapp3.1/AreadoTriangulo
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/bin/Debug/netcoreapp3.1/AreadoTriangulo.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/bin/Debug/netcoreapp3.1/AreadoTriangulo.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/bin/Debug/netcoreapp3.1/AreadoTriangulo.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/bin/Debug/netcoreapp3.1/AreadoTriangulo.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/bin/Debug/netcoreapp3.1/AreadoTriangulo.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/AreadoTriangulo/AreadoTriangulo/obj/Debug/netcoreapp3.1/AreadoTriangulo.genruntimeconfig.cache
