@@ -41,12 +41,24 @@ namespace AreadoTriangulo
             //yC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             
-            double pX = (x.A + x.B + x.C) / 2.0;
-            double areaX = Math.Sqrt(pX * (pX - x.A) * (pX - x.B) * (pX - x.C));
-
-            double pY = (y.A + y.B + y.C) / 2.0;
-            double areaY = Math.Sqrt(pY * (pY - y.A) * (pY - y.B) * (pY - y.C));
-
+            /**
+             * Método básico
+             * double pX = (x.A + x.B + x.C) / 2.0;
+             * double areaX = Math.Sqrt(pX * (pX - x.A) * (pX - x.B) * (pX - x.C));
+             */
+            
+            // Usando classe e metodo
+            double areaX = x.Area();
+            
+            /**
+             * Método básico
+             * double pY = (y.A + y.B + y.C) / 2.0;
+             * double areaY = Math.Sqrt(pY * (pY - y.A) * (pY - y.B) * (pY - y.C));
+             */
+            
+            // Usando classe e metodo
+            double areaY = y.Area();
+            
             Console.WriteLine("Área de X = {0}", areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("Área de Y = {0}", areaY.ToString("F4", CultureInfo.InvariantCulture));
 
