@@ -1,0 +1,14 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/bin/Debug/netcoreapp3.1/Estoque
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/bin/Debug/netcoreapp3.1/Estoque.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/bin/Debug/netcoreapp3.1/Estoque.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/bin/Debug/netcoreapp3.1/Estoque.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/bin/Debug/netcoreapp3.1/Estoque.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/bin/Debug/netcoreapp3.1/Estoque.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Estoque/Estoque/obj/Debug/netcoreapp3.1/Estoque.genruntimeconfig.cache
