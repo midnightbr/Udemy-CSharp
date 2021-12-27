@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/MembroEstatico
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/MembroEstatico.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/MembroEstatico.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/MembroEstatico.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/MembroEstatico.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/ref/MembroEstatico.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/bin/Debug/net5.0/MembroEstatico.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/ref/MembroEstatico.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/MembroEstatico/MembroEstatico/obj/Debug/net5.0/MembroEstatico.genruntimeconfig.cache
