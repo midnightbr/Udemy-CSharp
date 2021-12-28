@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ExProp_24
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ExProp_24.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ExProp_24.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ExProp_24.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ExProp_24.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ref/ExProp_24.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/bin/Debug/net5.0/ExProp_24.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ref/ExProp_24.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/ExProp_24/ExProp_24/obj/Debug/net5.0/ExProp_24.genruntimeconfig.cache
