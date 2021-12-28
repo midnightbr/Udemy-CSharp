@@ -7,17 +7,18 @@ namespace Estoque {
         public double Preco;
         public int Quantidade;
 
-        public Produto(string nome, double preco, int quantidade) {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
-        }
-
         public Produto(string nome, double preco) {
             Nome = nome;
             Preco = preco;
         }
         
+        /* Alterando o código para reaproveitar o construtor anterior, fazendo assim
+         * com que não tenha tanta repetição no código, fazendo ele ficar mais limpo e eficaz.
+         */
+        public Produto(string nome, double preco, int quantidade) : this(nome, preco) {
+            Quantidade = quantidade;
+        }
+
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }
