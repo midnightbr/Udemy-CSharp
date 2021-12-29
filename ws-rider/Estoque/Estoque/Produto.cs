@@ -25,28 +25,24 @@ namespace Estoque {
             _quantidade = quantidade;
         }
 
-        public string GetNome() {
-            return _nome;
-        }
-
-        public void SetNome(string nome) {
-            /**
-             * Com o encapsulamento, pode-se adicionar as regras do negocio dentro
-             * dos métodos, como no exemplo abaixo.
-             * Na condicional abaixo, ele verficia se a variavel não está vazia e que tenha
-             * mais que 1 caracter na frase, para depois poder ser alterado.
-             */
-            if (nome != null && nome.Length > 1) {
-                _nome = nome;
+        /**
+         * Usando o método Properties para as funções Get e Set.
+         */
+        public string Nome {
+            get { return _nome; }
+            set {
+                if (value != null && value.Length > 1) {
+                    _nome = value;
+                }
             }
         }
 
-        public double GetPreco() {
-            return _preco;
+        public double Preco {
+            get { return _preco; }
         }
 
-        public int GetQuantidade() {
-            return _quantidade;
+        public int Quantidade {
+            get { return _quantidade; }
         }
         
         public double ValorTotalEmEstoque() {

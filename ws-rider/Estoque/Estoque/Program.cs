@@ -6,9 +6,11 @@ namespace Estoque {
         static void Main(string[] args) {
             Produto p = new Produto("TV", 900.00, 15);
 
-            Console.WriteLine("Nome: " + p.GetNome());
-            Console.WriteLine("Preço: R$" + p.GetPreco());
-            Console.WriteLine("Quantidade: " + p.GetQuantidade());
+            p.Nome = "TV 4K";
+            
+            Console.WriteLine("Nome: " + p.Nome);
+            Console.WriteLine("Preço: R$" + p.Preco);
+            Console.WriteLine("Quantidade: " + p.Quantidade);
         }
     }
 }
