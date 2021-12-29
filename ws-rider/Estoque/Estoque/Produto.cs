@@ -10,19 +10,25 @@ namespace Estoque {
          * exemplos abaixo.
          */
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+        
+        /**
+         * O Auto propertie é uma forma mais simplificada de se declarar propriedades
+         * que não precisa de lógica particulares para as operações Get e Set. A propertie nome
+         * por exemplo, usa uma condição para validar o nome, o que não permite o uso de auto propertie.
+         */
+        public double Preco { get; private set; }
+        public int Quantidade { get; private set; }
 
         public Produto(string nome, double preco) {
             _nome = nome;
-            _preco = preco;
+            Preco = preco;
         }
         
         /* Alterando o código para reaproveitar o construtor anterior, fazendo assim
          * com que não tenha tanta repetição no código, fazendo ele ficar mais limpo e eficaz.
          */
         public Produto(string nome, double preco, int quantidade) : this(nome, preco) {
-            _quantidade = quantidade;
+            Quantidade = quantidade;
         }
 
         /**
@@ -37,30 +43,22 @@ namespace Estoque {
             }
         }
 
-        public double Preco {
-            get { return _preco; }
-        }
-
-        public int Quantidade {
-            get { return _quantidade; }
-        }
-        
         public double ValorTotalEmEstoque() {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProdutos(int quantidade) {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
 
         public void RemoverProdutos(int quantidade) {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
 
         public override string ToString() {
             return _nome + ", R$" 
-                        + _preco.ToString("F2", CultureInfo.InvariantCulture) + ", " 
-                        + _quantidade + " unidades, Total: R$"
+                        + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " 
+                        + Quantidade + " unidades, Total: R$"
                         + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
