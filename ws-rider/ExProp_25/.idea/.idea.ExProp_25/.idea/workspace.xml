@@ -4,47 +4,7 @@
     <projectFile>ExProp_25/ExProp_25.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2ed9d3c-3ec1-4f9e-8950-e064890ec040" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_25/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_25/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_25/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_25/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_25/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/ContaBancaria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/ExProp_25.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ExProp_25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ExProp_25.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ExProp_25.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ExProp_25.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ExProp_25.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ExProp_25.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/bin/Debug/net5.0/ref/ExProp_25.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ExProp_25.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/Debug/net5.0/ref/ExProp_25.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/ExProp_25.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/ExProp_25.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/ExProp_25.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_25/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-    </list>
+    <list default="true" id="d2ed9d3c-3ec1-4f9e-8950-e064890ec040" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,8 +58,16 @@
       <option name="presentableId" value="Default" />
       <updated>1640779495906</updated>
       <workItem from="1640779506695" duration="4566000" />
-      <workItem from="1640893706384" duration="1350000" />
+      <workItem from="1640893706384" duration="1550000" />
     </task>
+    <task id="LOCAL-00001" summary="Em um banco, para se cadastrar uma conta bancária, é necessário informar o número da conta, o nome do titular da conta, e o valor de depósito inicial que o titular depositou ao abrir a conta. Este valor de depósito inicial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero. Importante: uma vez que uma conta bancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome por ocasião de casamento, por exemplo). Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. Para cada saque realizado, o banco cobra uma taxa de $ 5.00. Nota: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa. Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação">
+      <created>1640895161348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640895161348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,8 +76,21 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Exercício Prosposto 25&#10;Em um banco, para se cadastrar uma conta bancária, é necessário informar o número da conta, o nome do titular da conta, e o valor de depósito inicial que o titular depositou ao abrir a conta. Este valor de depósito inicial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero. Importante: uma vez que uma conta bancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome por ocasião de casamento, por exemplo). Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. Para cada saque realizado, o banco cobra uma taxa de $ 5.00. Nota: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa. Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício Prosposto 25&#10;Em um banco, para se cadastrar uma conta bancária, é necessário informar o número da conta, o nome do titular da conta, e o valor de depósito inicial que o titular depositou ao abrir a conta. Este valor de depósito inicial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero. Importante: uma vez que uma conta bancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome por ocasião de casamento, por exemplo). Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. Para cada saque realizado, o banco cobra uma taxa de $ 5.00. Nota: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa. Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação." />
   </component>
 </project>

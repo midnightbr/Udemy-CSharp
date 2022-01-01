@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/CorrecaoEx_25
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/CorrecaoEx_25.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/CorrecaoEx_25.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/CorrecaoEx_25.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/CorrecaoEx_25.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/ref/CorrecaoEx_25.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/bin/Debug/net5.0/CorrecaoEx_25.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/ref/CorrecaoEx_25.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/CorrecaoEx_25/CorrecaoEx_25/obj/Debug/net5.0/CorrecaoEx_25.genruntimeconfig.cache
