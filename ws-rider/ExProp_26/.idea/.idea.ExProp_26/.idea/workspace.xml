@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe270e7-a1c3-4f0f-b8b8-a3b95f3a9ad8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/ExProp_26.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/Rent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ExProp_26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ExProp_26.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ExProp_26.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ExProp_26.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ExProp_26.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ExProp_26.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/bin/Debug/net5.0/ref/ExProp_26.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ExProp_26.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/Debug/net5.0/ref/ExProp_26.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/ExProp_26.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/ExProp_26.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/ExProp_26.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExProp_26/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExProp_26/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,17 +60,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641159184234</updated>
-      <workItem from="1641159197624" duration="2725000" />
+      <workItem from="1641159197624" duration="3164000" />
     </task>
+    <task id="LOCAL-00001" summary="Exercício Proposto 26&#10;A dona de um pensionato possui dez quartos para alugar para estudantes, sendo esses quartos identificados pelos números 0 a 9. Quando um estudante deseja alugar um quarto, deve-se registrar o nome e email deste estudante. Fazer um programa que inicie com todos os dez quartos vazios, e depois leia uma quantidade N representando o número de estudantes que vão alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estudantes. Para cada registro de aluguel, informar o nome e email do estudante, bem como qual dos quartos ele escolheu (de 0 a 9). Suponha que seja escolhido um quarto vago. Ao final, seu programa deve imprimir um relatório de todas ocupações do pensionato, por ordem de quarto">
+      <created>1641163889856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641163889856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Exercício Proposto 26&#10;A dona de um pensionato possui dez quartos para alugar para estudantes, sendo esses quartos identificados pelos números 0 a 9. Quando um estudante deseja alugar um quarto, deve-se registrar o nome e email deste estudante. Fazer um programa que inicie com todos os dez quartos vazios, e depois leia uma quantidade N representando o número de estudantes que vão alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estudantes. Para cada registro de aluguel, informar o nome e email do estudante, bem como qual dos quartos ele escolheu (de 0 a 9). Suponha que seja escolhido um quarto vago. Ao final, seu programa deve imprimir um relatório de todas ocupações do pensionato, por ordem de quarto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício Proposto 26&#10;A dona de um pensionato possui dez quartos para alugar para estudantes, sendo esses quartos identificados pelos números 0 a 9. Quando um estudante deseja alugar um quarto, deve-se registrar o nome e email deste estudante. Fazer um programa que inicie com todos os dez quartos vazios, e depois leia uma quantidade N representando o número de estudantes que vão alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estudantes. Para cada registro de aluguel, informar o nome e email do estudante, bem como qual dos quartos ele escolheu (de 0 a 9). Suponha que seja escolhido um quarto vago. Ao final, seu programa deve imprimir um relatório de todas ocupações do pensionato, por ordem de quarto" />
   </component>
 </project>
