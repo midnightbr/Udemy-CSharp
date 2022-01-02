@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/Nullable
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/Nullable.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/Nullable.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/Nullable.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/Nullable.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/ref/Nullable.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/bin/Debug/net5.0/Nullable.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/ref/Nullable.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Nullable/Nullable/obj/Debug/net5.0/Nullable.genruntimeconfig.cache
