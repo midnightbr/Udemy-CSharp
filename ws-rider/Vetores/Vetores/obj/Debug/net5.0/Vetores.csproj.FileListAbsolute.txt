@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/Vetores
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/Vetores.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/Vetores.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/Vetores.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/Vetores.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/ref/Vetores.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/bin/Debug/net5.0/Vetores.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/ref/Vetores.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Vetores/Vetores/obj/Debug/net5.0/Vetores.genruntimeconfig.cache

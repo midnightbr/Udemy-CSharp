@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abbe826-c050-44be-8712-87d818c8ac16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/Nullable.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/Nullable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/Nullable.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/Nullable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/Nullable.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/Nullable.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/Nullable.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/bin/Debug/net5.0/ref/Nullable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/Nullable.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Debug/net5.0/ref/Nullable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Nullable.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Nullable.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/Nullable.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nullable/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nullable/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,17 +60,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641097971494</updated>
-      <workItem from="1641097980454" duration="827000" />
+      <workItem from="1641097980454" duration="1371000" />
     </task>
+    <task id="LOCAL-00001" summary="Nullable&#10;Aula no qual explica a forma de poder dar valores nulos a variaveis que não conseguimos dar esses valores por padrão, como variaveis double, usadas de exemplo. Vimos também sobre Operador de coalescência nula, que da nada mais que um tratamento de caso, para quando queremos um valor por default seja atribuido para uma variavel, caso o valor recebido seja nulo.">
+      <created>1641098999598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641098999598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Nullable&#10;Aula no qual explica a forma de poder dar valores nulos a variaveis que não conseguimos dar esses valores por padrão, como variaveis double, usadas de exemplo. Vimos também sobre Operador de coalescência nula, que da nada mais que um tratamento de caso, para quando queremos um valor por default seja atribuido para uma variavel, caso o valor recebido seja nulo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nullable&#10;Aula no qual explica a forma de poder dar valores nulos a variaveis que não conseguimos dar esses valores por padrão, como variaveis double, usadas de exemplo. Vimos também sobre Operador de coalescência nula, que da nada mais que um tratamento de caso, para quando queremos um valor por default seja atribuido para uma variavel, caso o valor recebido seja nulo." />
   </component>
 </project>
