@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/Params
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/Params.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/Params.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/Params.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/Params.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/ref/Params.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/bin/Debug/net5.0/Params.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/ref/Params.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Params/Params/obj/Debug/net5.0/Params.genruntimeconfig.cache

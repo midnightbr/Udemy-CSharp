@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13bab46f-5b00-4570-bad8-949b2a752511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/CorrecaoEx_26.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/Estudante.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/CorrecaoEx_26.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/CorrecaoEx_26.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/CorrecaoEx_26.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/Debug/net5.0/CorrecaoEx_26.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/Debug/net5.0/CorrecaoEx_26.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/Debug/net5.0/CorrecaoEx_26.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/Debug/net5.0/CorrecaoEx_26.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/Debug/net5.0/CorrecaoEx_26.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorrecaoEx_26/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExProp_26/.idea/.idea.ExProp_26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExProp_26/.idea/.idea.ExProp_26/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CorrecaoEx_26/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,16 +61,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641164014093</updated>
-      <workItem from="1641164022128" duration="71000" />
+      <workItem from="1641164022128" duration="1034000" />
     </task>
+    <task id="LOCAL-00001" summary="Correção Exercício Proposto 26&#10;Aqui está a correção ou a sugestão do professor, de como resolver o problema do exercício 26.">
+      <created>1641164192227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641164192227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Correção Exercício Proposto 26&#10;Aqui está a correção ou a sugestão do professor, de como resolver o problema do exercício 26." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção Exercício Proposto 26&#10;Aqui está a correção ou a sugestão do professor, de como resolver o problema do exercício 26." />
   </component>
 </project>
