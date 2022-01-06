@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/Foreach
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/Foreach.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/Foreach.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/Foreach.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/Foreach.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/ref/Foreach.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/bin/Debug/net5.0/Foreach.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/ref/Foreach.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Foreach/Foreach/obj/Debug/net5.0/Foreach.genruntimeconfig.cache
