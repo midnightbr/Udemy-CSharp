@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/Listas
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/Listas.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/Listas.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/Listas.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/Listas.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/ref/Listas.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/bin/Debug/net5.0/Listas.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/ref/Listas.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Listas/Listas/obj/Debug/net5.0/Listas.genruntimeconfig.cache
