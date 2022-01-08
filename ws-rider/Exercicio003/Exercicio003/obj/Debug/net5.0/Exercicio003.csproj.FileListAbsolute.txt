@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/Exercicio003
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/Exercicio003.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/Exercicio003.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/Exercicio003.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/Exercicio003.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/ref/Exercicio003.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/bin/Debug/net5.0/Exercicio003.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/ref/Exercicio003.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Exercicio003/Exercicio003/obj/Debug/net5.0/Exercicio003.genruntimeconfig.cache
