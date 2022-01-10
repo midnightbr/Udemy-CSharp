@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/Switch-Case
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/Switch-Case.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/Switch-Case.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/Switch-Case.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/Switch-Case.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/ref/Switch-Case.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/bin/Debug/net5.0/Switch-Case.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/ref/Switch-Case.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/Switch-Case/Switch-Case/obj/Debug/net5.0/Switch-Case.genruntimeconfig.cache
