@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/FuncoesForString
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/FuncoesForString.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/FuncoesForString.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/FuncoesForString.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/FuncoesForString.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/ref/FuncoesForString.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/bin/Debug/net5.0/FuncoesForString.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/ref/FuncoesForString.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/FuncoesForString/FuncoesForString/obj/Debug/net5.0/FuncoesForString.genruntimeconfig.cache
