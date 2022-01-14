@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/DateTime
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/DateTime.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/DateTime.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/DateTime.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/DateTime.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/ref/DateTime.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/bin/Debug/net5.0/DateTime.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/ref/DateTime.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/Debug/net5.0/DateTime.genruntimeconfig.cache

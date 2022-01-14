@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/midnight/Documentos/GitHub/CSharp/ws-rider/Sintaxe_Alternativa/Sintaxe_Alternativa/Sintaxe_Alternativa.csproj": {}
+    "/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/DateTime.csproj": {}
   },
   "projects": {
-    "/home/midnight/Documentos/GitHub/CSharp/ws-rider/Sintaxe_Alternativa/Sintaxe_Alternativa/Sintaxe_Alternativa.csproj": {
+    "/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/DateTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/midnight/Documentos/GitHub/CSharp/ws-rider/Sintaxe_Alternativa/Sintaxe_Alternativa/Sintaxe_Alternativa.csproj",
-        "projectName": "Sintaxe_Alternativa",
-        "projectPath": "/home/midnight/Documentos/GitHub/CSharp/ws-rider/Sintaxe_Alternativa/Sintaxe_Alternativa/Sintaxe_Alternativa.csproj",
+        "projectUniqueName": "/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/DateTime.csproj",
+        "projectName": "DateTime",
+        "projectPath": "/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/DateTime.csproj",
         "packagesPath": "/home/midnight/.nuget/packages/",
-        "outputPath": "/home/midnight/Documentos/GitHub/CSharp/ws-rider/Sintaxe_Alternativa/Sintaxe_Alternativa/obj/",
+        "outputPath": "/home/midnight/Documentos/GitHub/CSharp/ws-rider/DateTime/DateTime/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/midnight/.nuget/NuGet/NuGet.Config"
