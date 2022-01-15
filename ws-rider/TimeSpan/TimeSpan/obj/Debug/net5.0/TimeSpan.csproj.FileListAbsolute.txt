@@ -1,0 +1,16 @@
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/TimeSpan
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/TimeSpan.deps.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/TimeSpan.runtimeconfig.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/TimeSpan.runtimeconfig.dev.json
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/TimeSpan.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/ref/TimeSpan.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/bin/Debug/net5.0/TimeSpan.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.csproj.AssemblyReference.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.GeneratedMSBuildEditorConfig.editorconfig
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.AssemblyInfoInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.AssemblyInfo.cs
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.csproj.CoreCompileInputs.cache
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/ref/TimeSpan.dll
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.pdb
+/home/midnight/Documentos/GitHub/CSharp/ws-rider/TimeSpan/TimeSpan/obj/Debug/net5.0/TimeSpan.genruntimeconfig.cache
