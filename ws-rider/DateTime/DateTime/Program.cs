@@ -38,6 +38,50 @@ namespace DateTime {
             Console.WriteLine(date7);
             Console.WriteLine(date8);
             
+            // Escolhendo qual propriedade sera mostrado na tela
+            System.DateTime dt = new System.DateTime(2020, 12, 15, 08, 05, 30, 400);
+            Console.WriteLine(dt);
+            Console.WriteLine("01 - Date: " + dt.Date);
+            Console.WriteLine("02 - Day: " + dt.Day);
+            Console.WriteLine("03 - DayOfWeek: " + dt.DayOfWeek);
+            Console.WriteLine("04 - DayOfYear: " + dt.DayOfYear);
+            Console.WriteLine("05 - Hour: " + dt.Hour);
+            Console.WriteLine("06 - Kind: " + dt.Kind);
+            Console.WriteLine("07 - Millisecond: " + dt.Millisecond);
+            Console.WriteLine("08 - Minute: " + dt.Minute);
+            Console.WriteLine("09 - Month: " + dt.Month);
+            Console.WriteLine("10 - Second: " + dt.Second);
+            Console.WriteLine("11 - Ticks: " + dt.Ticks);
+            Console.WriteLine("12 - TimeOfDay: " + dt.TimeOfDay);
+            Console.WriteLine("13 - Year: " + dt.Year);
+            
+            // Convertendo data do tipo date para tipo string
+            //Convertendo para o formato padrão do date
+            Console.WriteLine(dt.ToString());
+            Console.WriteLine(dt.ToString("yyyy-MM-dd HH:mm:ss")); // Declarando formato a ser mostrado
+            Console.WriteLine(dt.ToString("yyyy-MM-dd HH:mm:ss.fff")); // Monstrando variavel com o milisegundos
+            // Convertendo a data (dd/mm/yyyy))
+            Console.WriteLine(dt.ToLongDateString()); // Com o dia da semana e o nome do mês
+            Console.WriteLine(dt.ToShortDateString()); // Apenas numeral
+            // Convertendo a hora
+            Console.WriteLine(dt.ToLongTimeString()); // Conversão com hora, minuto e segundo
+            Console.WriteLine(dt.ToShortTimeString()); // Conversão somente com hora e minuto
+            
+            // Operações DateTime
+            System.DateTime dtHours = dt.AddHours(2); // Recebendo a variavel dt com acrescimo de 2 horas
+            Console.WriteLine(dtHours);
+            System.DateTime dtMinutes = dt.AddMinutes(25); // Recebendo a variavel dt com acrescimo de 25 minutos
+            Console.WriteLine(dtMinutes);
+            // Exemplo de utilização do Add para criar um boleto e seu vencimento
+            System.DateTime boleto = System.DateTime.Now;
+            System.DateTime vencimento = boleto.AddDays(7); // Vencimento do boleto para daqui 7 dias
+            Console.WriteLine("Data da emição do boleto: " + boleto);
+            Console.WriteLine("Vencimento do boleto: " + vencimento);
+            
+            // Diferença entre duas datas
+            TimeSpan ts = date1.Subtract(dt);
+            Console.WriteLine(ts);
+            Console.WriteLine("Days: " + ts.Days);
         }
     }
 }
