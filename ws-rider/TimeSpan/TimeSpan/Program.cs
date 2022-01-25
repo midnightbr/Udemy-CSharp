@@ -32,6 +32,43 @@ namespace TimeSpan {
             Console.WriteLine(timeMiliseconds);
             System.TimeSpan timeTicks = System.TimeSpan.FromTicks(1250900000L); // Não aceita valores quebrados
             Console.WriteLine(timeTicks);
+            
+            // Propriedades do TimeSpan
+            System.TimeSpan timeMax = System.TimeSpan.MaxValue; // Atribuindo o valor maximo
+            System.TimeSpan timeMin = System.TimeSpan.MinValue; // Atribuindo o valor minimo
+            System.TimeSpan timeZero = System.TimeSpan.Zero; // Atribuindo o valor zero
+
+            Console.WriteLine(timeMax);
+            Console.WriteLine(timeMin);
+            Console.WriteLine(timeZero);
+
+            System.TimeSpan timeProp = new System.TimeSpan(5, 3, 5, 7, 11);
+            Console.WriteLine(timeProp);
+            Console.WriteLine("Days: " + timeProp.Days);
+            Console.WriteLine("Hours: " + timeProp.Hours);
+            Console.WriteLine("Minutes: " + timeProp.Minutes);
+            Console.WriteLine("Seconds: " + timeProp.Seconds);
+            Console.WriteLine("Milliseconds: " + timeProp.Milliseconds);
+            Console.WriteLine("Ticks: " + timeProp.Ticks);
+
+            Console.WriteLine("Total Days: " + timeProp.TotalDays);
+            Console.WriteLine("Total Hours: " + timeProp.TotalHours);
+            Console.WriteLine("Total Minutes: " + timeProp.TotalMinutes);
+            Console.WriteLine("Total Seconds: " + timeProp.TotalSeconds);
+            Console.WriteLine("Total Milliseconds: " + timeProp.TotalMilliseconds);
+            
+            // Operações com TimeSpan
+            System.TimeSpan timeOper1 = new System.TimeSpan(2, 25, 10);
+            System.TimeSpan timeOper2 = new System.TimeSpan(0, 35, 25);
+
+            System.TimeSpan sum = timeOper1.Add(timeOper2);
+            Console.WriteLine(sum);
+            System.TimeSpan dif = timeOper1.Subtract(timeOper2);
+            Console.WriteLine(dif);
+            System.TimeSpan multi = timeOper2.Multiply(2.0); // Só recebe valores doubles, não recebe objetos TimeSpan
+            Console.WriteLine(multi);
+            System.TimeSpan div = timeOper1.Divide(2.0); // Mesma regra da operação Multiply
+            Console.WriteLine(div);
         }
     }
 }
