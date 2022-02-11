@@ -13,8 +13,9 @@ namespace Heranca.Entities {
             Balance = balance;
         }
 
-        public void Withdraw(double amount) {
-            Balance -= amount;
+        // Para sobrescrever ou sobrepor uma função da superclasse na subclasse, basta adicionar o virtual
+        public virtual void Withdraw(double amount) {
+            Balance -= amount + 5.0; // Adicionando a taxa de $5.0 para saque
         }
 
         public void Deposit(double amount) {
