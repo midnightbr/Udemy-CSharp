@@ -1,26 +1,29 @@
 ﻿using System;
+using System.IO;
 
 namespace TratamentoDeErro {
     class Program {
         static void Main(string[] args) {
+            FileStream fs = null;
             try {
-                int n1 = int.Parse(Console.ReadLine());
-                int n2 = int.Parse(Console.ReadLine());
-
-                int result = n1 / n2;
-                Console.WriteLine(result);
+                fs = new FileStream(@"/home/midnight/Documentos/teste.txt", FileMode.Open);
+                StreamReader sr = new StreamReader(fs);
+                string line = sr.ReadLine();
+                Console.WriteLine(line);
             }
-            // Tratando o erro especifico quando a divisão é por zero
-            catch (DivideByZeroException) {
-                Console.WriteLine("Division by zero is not allowed");
+            // Tratamento de erro caso o arquivo não existir
+            catch (FileNotFoundException e) {
+                Console.WriteLine(e.Message);
             }
-            // Tratando o erro especifico quando o tipo do valor não é do tipo int
-            catch (FormatException e) {
-                Console.WriteLine("Format error! " + e.Message);
-            }
-            // Tratamento de erros de forma geral (generica)
-            catch (Exception e) {
-                Console.WriteLine("Error: " + e.Message);
+            /*
+             * Independente da execução do código ou tratamento do erro, o finally é
+             * para encerrar processos que continuam em aberto, nesse caso o processo FileStream
+             * no qual precisa ser encerrado manualmente.
+             */
+            finally {
+                if (fs != null) {
+                    fs.Close();
+                }
             }
         }
     }
