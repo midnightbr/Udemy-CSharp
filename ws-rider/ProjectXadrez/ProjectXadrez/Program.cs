@@ -1,4 +1,5 @@
 ﻿using System;
+using tabuleiro;
 
 namespace ProjectXadrez {
     class Program {
