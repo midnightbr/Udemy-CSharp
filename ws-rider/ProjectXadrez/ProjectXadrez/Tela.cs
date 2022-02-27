@@ -35,6 +35,7 @@ namespace ProjectXadrez
             {
                 Console.Write(peca);
             }
+            // Torcando a cor da letras a serem imprimidas no console
             else if (peca.Cor == Cor.Preto)
             {
                 ConsoleColor orin = Console.ForegroundColor;
