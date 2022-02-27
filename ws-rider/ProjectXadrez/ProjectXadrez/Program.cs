@@ -14,6 +14,9 @@ namespace ProjectXadrez {
                 tab.colocarPeca(new Torre(tab, Cor.Preto), new Posicao(1, 3));
                 tab.colocarPeca(new Rei(tab, Cor.Preto), new Posicao(0, 4));
                 
+                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(3, 5));
+                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(5, 2));
+                
                 // Testando PosiçãoXadres
                 /*
                 PosicaoXadrez pos = new PosicaoXadrez('c', 7);
