@@ -6,24 +6,25 @@ namespace ProjectXadrez {
     class Program {
         static void Main(string[] args)
         {
-            try
-            {
-                Tabuleiro tab = new Tabuleiro(8, 8);
-                
-                tab.colocarPeca(new Torre(tab, Cor.Preto), new Posicao(0, 0));
-                tab.colocarPeca(new Torre(tab, Cor.Preto), new Posicao(1, 3));
-                tab.colocarPeca(new Rei(tab, Cor.Preto), new Posicao(0, 4));
-                
-                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(3, 5));
-                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(5, 2));
-                
-                // Testando PosiçãoXadres
-                /*
-                PosicaoXadrez pos = new PosicaoXadrez('c', 7);
-                Console.WriteLine(pos);
-                Console.WriteLine(pos.toPosicao()); // Resultando experado é 1, 2
-                */
-                Tela.imprimirTabuleiro(tab);
+            try {
+                PartidaDeXadrez partida = new PartidaDeXadrez();
+
+                while (!partida.Terminada) {
+                 Console.Clear();
+                 
+                 Console.WriteLine();
+                 
+                 Tela.imprimirTabuleiro(partida.Tab);
+
+                 Console.WriteLine();
+
+                 Console.Write("Origem: ");
+                 Posicao origem = Tela.LerPosicaoXadrez().toPosicao();
+                 Console.Write("Destino: ");
+                 Posicao destino = Tela.LerPosicaoXadrez().toPosicao();
+                 
+                 partida.executaMovimento(origem, destino);
+                }
             }
             catch (TabuleiroException e)
             {
