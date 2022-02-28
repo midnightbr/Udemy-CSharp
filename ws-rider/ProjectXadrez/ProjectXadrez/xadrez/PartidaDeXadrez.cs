@@ -1,7 +1,7 @@
 ﻿using tabuleiro;
 
 namespace xadrez {
-    public class PartidaDeXadrez {
+    class PartidaDeXadrez {
         public Tabuleiro Tab { get; private set; }
         private int Turno;
         private Cor JogadorAtual;
@@ -29,7 +29,7 @@ namespace xadrez {
             Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('e', 8).toPosicao());
             Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('e', 7).toPosicao());
             Tab.colocarPeca(new Rei(Tab, Cor.Preto), new PosicaoXadrez('d', 8).toPosicao());
-            
+
             Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('c', 1).toPosicao());
             Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('c', 2).toPosicao());
             Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('d', 2).toPosicao());
