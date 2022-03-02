@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using System.Collections.Generic;
+using tabuleiro;
 
 namespace xadrez {
     class PartidaDeXadrez {
@@ -6,12 +7,17 @@ namespace xadrez {
         public int Turno { get; private set; }
         public Cor JogadorAtual { get; private set; }
         public bool Terminada { get; private set; }
+        private HashSet<Peca> Peca;
+        private HashSet<Peca> Capturadas;
+
 
         public PartidaDeXadrez() {
             Tab = new Tabuleiro(8, 8);
             Turno = 1;
             JogadorAtual = Cor.Branca;
             Terminada = false;
+            Peca = new HashSet<Peca>();
+            Capturadas = new HashSet<Peca>();
             colocarPecas();
         }
 
@@ -20,6 +26,9 @@ namespace xadrez {
             p.incrementarQtdMovimentos();
             Peca pecaCapturada = Tab.retirarPeca(destino);
             Tab.colocarPeca(p, destino);
+            if (pecaCapturada != null) {
+                Capturadas.Add(pecaCapturada);
+            }
         }
 
         public void realizaJogada(Posicao origem, Posicao destino) {
@@ -57,20 +66,48 @@ namespace xadrez {
             }
         }
 
-        private void colocarPecas() {
-            Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('c', 8).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('c', 7).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('d', 7).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('e', 8).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Preto), new PosicaoXadrez('e', 7).toPosicao());
-            Tab.colocarPeca(new Rei(Tab, Cor.Preto), new PosicaoXadrez('d', 8).toPosicao());
+        public HashSet<Peca> pecasCapturadas(Cor cor) {
+            HashSet<Peca> aux = new HashSet<Peca>();
+            foreach (Peca x in Capturadas) {
+                if (x.Cor == cor) {
+                    aux.Add(x);
+                }     
+            }
 
-            Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('c', 1).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('c', 2).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('d', 2).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('e', 1).toPosicao());
-            Tab.colocarPeca(new Torre(Tab, Cor.Branca), new PosicaoXadrez('e', 2).toPosicao());
-            Tab.colocarPeca(new Rei(Tab, Cor.Branca), new PosicaoXadrez('d', 1).toPosicao());
+            return aux;
+        }
+
+        public HashSet<Peca> pecasEmJogo(Cor cor) {
+            HashSet<Peca> aux = new HashSet<Peca>();
+            foreach (Peca x in Peca) {
+                if (x.Cor == cor) {
+                    aux.Add(x);
+                }
+            }
+            // Remover as peças capturadas das peças em jogo
+            aux.ExceptWith(pecasCapturadas(cor));
+            return aux;
+        }
+
+        public void colocarNovaPeca(char coluna, int linha, Peca peca) {
+            Tab.colocarPeca(peca, new PosicaoXadrez(coluna, linha).toPosicao());
+            Peca.Add(peca);
+        }
+
+        private void colocarPecas() {
+            colocarNovaPeca('c', 8, new Torre(Tab, Cor.Preto));
+            colocarNovaPeca('c', 7, new Torre(Tab, Cor.Preto));
+            colocarNovaPeca('d', 7, new Torre(Tab, Cor.Preto));
+            colocarNovaPeca('e', 8, new Torre(Tab, Cor.Preto));
+            colocarNovaPeca('e', 7, new Torre(Tab, Cor.Preto));
+            colocarNovaPeca('d', 8, new Rei(Tab, Cor.Preto));
+
+            colocarNovaPeca('c', 1, new Torre(Tab, Cor.Branca));
+            colocarNovaPeca('c', 2, new Torre(Tab, Cor.Branca));
+            colocarNovaPeca('d', 2, new Torre(Tab, Cor.Branca));
+            colocarNovaPeca('e', 1, new Torre(Tab, Cor.Branca));
+            colocarNovaPeca('e', 2, new Torre(Tab, Cor.Branca));
+            colocarNovaPeca('d', 1, new Rei(Tab, Cor.Branca));
         }
     }
 }
