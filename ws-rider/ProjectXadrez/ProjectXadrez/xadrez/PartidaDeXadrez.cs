@@ -42,6 +42,7 @@ namespace xadrez {
                 Tab.colocarPeca(pecaCapturada, destino);
                 Capturadas.Remove(pecaCapturada);
             }
+            Tab.colocarPeca(p, origem);
         }
 
         public void realizaJogada(Posicao origem, Posicao destino) {
