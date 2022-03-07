@@ -27,7 +27,7 @@ namespace xadrez {
                 if (Tab.peca(pos) != null && Tab.peca(pos).Cor != Cor) {
                     break;
                 }
-                pos.definirValores(Posicao.Linha - 1, Posicao.Coluna);
+                pos.definirValores(pos.Linha - 1, pos.Coluna);
             }
 
             // Abaixo
@@ -37,7 +37,7 @@ namespace xadrez {
                 if (Tab.peca(pos) != null && Tab.peca(pos).Cor != Cor) {
                     break;
                 }
-                pos.definirValores(Posicao.Linha + 1, Posicao.Coluna);
+                pos.definirValores(pos.Linha + 1, pos.Coluna);
             }
 
             // Direita
@@ -47,7 +47,7 @@ namespace xadrez {
                 if (Tab.peca(pos) != null && Tab.peca(pos).Cor != Cor) {
                     break;
                 }
-                pos.definirValores(Posicao.Linha, Posicao.Coluna + 1);
+                pos.definirValores(pos.Linha, pos.Coluna + 1);
             }
 
             // Esquerda
@@ -57,7 +57,7 @@ namespace xadrez {
                 if (Tab.peca(pos) != null && Tab.peca(pos).Cor != Cor) {
                     break;
                 }
-                pos.definirValores(Posicao.Linha, Posicao.Coluna - 1);
+                pos.definirValores(pos.Linha, pos.Coluna - 1);
             }
             
             // NO
