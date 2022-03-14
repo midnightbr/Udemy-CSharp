@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ConsoleApp1 {
+namespace FileAndFileInfo {
     class Program {
         static void Main(string[] args) {
             // Caminho do arquivo de origem
