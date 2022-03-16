@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿// Link para o exercício corrigido: https://github.com/acenelio/files1-csharp
+using System.Globalization;
 using ExProp_33.Entities;
 
 string sourcePath = @"C:\Users\marco\Documents\CSharp\ws-rider\ExProp_33\ExProp_33\itens.csv";
