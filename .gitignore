@@ -35,3 +35,6 @@ Desktop.ini
 .DS_Store
 File2.txt
 File.txt
+FilesTxt/Directory
+FilesTxt/DirectoryInfo/
+FilesTxt/StreamWriter.txt
