@@ -5,17 +5,24 @@ namespace Delegate
 {
     internal class Program
     {
-        delegate double BinaryNumericOperation(double n1, double n2);
+        //delegate double BinaryNumericOperation(double n1, double n2);
+        delegate void BinaryNumericOperation(double n1, double n2);
 
         static void Main(string[] args)
         {
             double a = 10;
             double b = 20;
 
-            BinaryNumericOperation op = CalculationService.Sum;
+            //BinaryNumericOperation op = CalculationService.Sum;
 
-            double result = op.Invoke(a, b);
-            Console.WriteLine(result);
+            //double result = op.Invoke(a, b);
+            //Console.WriteLine(result);
+
+            BinaryNumericOperation op = CalculationService.ShowMax;
+            op += CalculationService.ShowSum;
+
+            op.Invoke(a, b);
+
         }
     }
 }
