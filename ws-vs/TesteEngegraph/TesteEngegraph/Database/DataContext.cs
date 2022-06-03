@@ -12,6 +12,6 @@ namespace TesteEngegraph.Database
 
         public DbSet<ContactModel> Contatos { get; set; }
 
-        public DbSet<TypeModel> Tipo { get; set; }
+        public DbSet<TypeModel> Tipos { get; set; }
     }
 }
