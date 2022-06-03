@@ -69,3 +69,23 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.left {
+    height: 150px;
+    width: 350PX;
+    float: left;
+    padding: 0px 100px 20px 0px;
+    margin: 0px 50px 20px 0px;
+}
+
+.right {
+    height: 150px;
+    width: 250PX;
+    display: inline-block;
+    margin: 0px 50px 20px 0px;
+}
+
+#addTipo {
+    width: 166px;
+    font-size: 14px;
+}

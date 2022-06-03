@@ -1,0 +1,179 @@
+﻿@{
+    ViewData["Title"] = "Contacts";
+}
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#Add">Adicionar</button>
+</div>
+
+<h5>Filtro</h5>
+<p>Digite algo no campo para pesquisar na tabela por nome ou tipo:</p>
+<input class="form-control" id="searchContact" type="text" placeholder="Search..">
+
+<br />
+
+<div class="text-center">
+    <h3>Contacts List</h3>
+</div>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Data de nascimento</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Ativo</th>
+            </tr>
+        </thead>
+        <tbody id="tableContact">
+            <tr>
+                <th scope="row">1</th>
+                <td>Marcos Henrique</td>
+                <td>22/09/1996</td>
+                <td>000.000.000-00</td>
+                <td>Masculino</td>
+                <td>Programador Júnior</td>
+                <td>Sim</td>
+                @*<td>
+                <div class="btn-group" role="group">
+                <a role="button" class="">Editar</a>
+                <a role="button" class="">Apagar</a>
+                </div>
+                </td>*@
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Clayton</td>
+                <td>22/09/1996</td>
+                <td>000.000.000-00</td>
+                <td>Masculino</td>
+                <td>Técnico</td>
+                <td>Sim</td>
+                @*<td>
+                <div class="btn-group" role="group">
+                <a role="button" class="">Editar</a>
+                <a role="button" class="">Apagar</a>
+                </div>
+                </td>*@
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Fabiana</td>
+                <td>22/09/1996</td>
+                <td>000.000.000-00</td>
+                <td>Masculino</td>
+                <td>Recursos Humanos</td>
+                <td>Sim</td>
+                @*<td>
+                <div class="btn-group" role="group">
+                <a role="button" class="">Editar</a>
+                <a role="button" class="">Apagar</a>
+                </div>
+                </td>*@
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function searchTable() {
+        var input, filter, found, table, tr, td, i, j;
+        input = document.getElementById("#searchContact");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("#tableContact");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td");
+            for (j = 0; j < td.length; j++) {
+                if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    found = true;
+                }
+            }
+            if (found) {
+                tr[i].style.display = "";
+                break;
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+<div class="modal" id="Add" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Novo Contato</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nome</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Alex da Silva">
+                    </div>
+                    <div class="left">
+                        <div class="form-group">
+                            <label>Data de Nascimento</label> <br />
+                            <input id="nascimento" type="date" />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Sexo</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="ativo" />
+                            <label>Pessoa Ativa</label>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">CPF</label>
+                            <input type="text" class="form-control cpf-mask" data-mask="000.000.000-00" id="exampleFormControlInput1" placeholder="000.000.000-00">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Tipo</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Programador</option>
+                            </select>
+                            <br />
+                            <button type="button" id="addTipo" class="btn btn-info btn-md" data-toggle="modal" data-target="#tipoAdd">Não encontrou o tipo?</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="tipoAdd" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Novo Tipo</h3>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Tipo</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vendendor">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
