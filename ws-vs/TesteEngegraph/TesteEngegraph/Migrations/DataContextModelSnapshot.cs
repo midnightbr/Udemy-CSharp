@@ -49,7 +49,7 @@ namespace TesteEngegraph.Migrations
                     b.HasIndex("TypesId")
                         .IsUnique();
 
-                    b.ToTable("Contatos");
+                    b.ToTable("Contacts");
                 });
 
             modelBuilder.Entity("TesteEngegraph.Models.Types", b =>
@@ -65,7 +65,7 @@ namespace TesteEngegraph.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tipos");
+                    b.ToTable("Types");
                 });
 
             modelBuilder.Entity("TesteEngegraph.Models.Contact", b =>

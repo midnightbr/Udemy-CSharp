@@ -10,8 +10,8 @@ using TesteEngegraph.Database;
 namespace TesteEngegraph.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220606021055_NewEntities")]
-    partial class NewEntities
+    [Migration("20220606035449_CreateDB")]
+    partial class CreateDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,18 +32,15 @@ namespace TesteEngegraph.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Cpf")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Sexo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TypesId")
@@ -54,7 +51,7 @@ namespace TesteEngegraph.Migrations
                     b.HasIndex("TypesId")
                         .IsUnique();
 
-                    b.ToTable("Contatos");
+                    b.ToTable("Contacts");
                 });
 
             modelBuilder.Entity("TesteEngegraph.Models.Types", b =>
@@ -70,7 +67,7 @@ namespace TesteEngegraph.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tipos");
+                    b.ToTable("Types");
                 });
 
             modelBuilder.Entity("TesteEngegraph.Models.Contact", b =>

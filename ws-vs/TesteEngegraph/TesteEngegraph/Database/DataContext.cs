@@ -10,8 +10,16 @@ namespace TesteEngegraph.Database
 
         }
 
-        public DbSet<ContactModel> Contatos { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Types>()
+                .HasOne(types => types.Contact)
+                .WithOne(contact => contact.Types)
+                .HasForeignKey<Contact>(contact => contact.TypesId);
+        }
 
-        public DbSet<TypeModel> Tipos { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<Types> Types { get; set; }
     }
 }

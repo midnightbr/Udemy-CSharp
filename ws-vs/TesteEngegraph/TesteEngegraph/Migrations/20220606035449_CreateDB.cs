@@ -3,25 +3,25 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TesteEngegraph.Migrations
 {
-    public partial class CriandoTabelasContatosTipos : Migration
+    public partial class CreateDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Tipos",
+                name: "Types",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Tipos", x => x.Id);
+                    table.PrimaryKey("PK_Types", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Contatos",
+                name: "Contacts",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -30,33 +30,34 @@ namespace TesteEngegraph.Migrations
                     DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Cpf = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Sexo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TipoId = table.Column<int>(type: "int", nullable: true),
+                    TypesId = table.Column<int>(type: "int", nullable: false),
                     Ativo = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Contatos", x => x.Id);
+                    table.PrimaryKey("PK_Contacts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Contatos_Tipos_TipoId",
-                        column: x => x.TipoId,
-                        principalTable: "Tipos",
+                        name: "FK_Contacts_Types_TypesId",
+                        column: x => x.TypesId,
+                        principalTable: "Types",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Contatos_TipoId",
-                table: "Contatos",
-                column: "TipoId");
+                name: "IX_Contacts_TypesId",
+                table: "Contacts",
+                column: "TypesId",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Contatos");
+                name: "Contacts");
 
             migrationBuilder.DropTable(
-                name: "Tipos");
+                name: "Types");
         }
     }
 }
