@@ -10,13 +10,13 @@ namespace TesteEngegraph.Database
 
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.Entity<Types>()
-                .HasOne(types => types.Contact)
-                .WithOne(contact => contact.Types)
-                .HasForeignKey<Contact>(contact => contact.TypesId);
-        }
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    builder.Entity<Types>()
+        //        .HasOne(types => types.Contact)
+        //        .WithOne(contact => contact.Types)
+        //        .HasForeignKey<Contact>(contact => contact.TypesId);
+        //}
 
         public DbSet<Contact> Contacts { get; set; }
 

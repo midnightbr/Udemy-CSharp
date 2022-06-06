@@ -9,17 +9,15 @@ namespace TesteEngegraph.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        public Contact Contact { get; set; }
 
         public Types()
         {
         }
 
-        public Types(int id, string name, Contact contact)
+        public Types(int id, string name)
         {
             Id = id;
             Name = name;
-            Contact = contact;
         }
     }
 }

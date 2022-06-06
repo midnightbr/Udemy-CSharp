@@ -3,8 +3,11 @@
 @{
     ViewData["Title"] = "Contacts";
 }
+
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#Add">Adicionar</button>
+    <p>
+        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#Add">Adicionar</button>
+    </p>
 </div>
 
 <h5>Filtro</h5>
@@ -43,12 +46,12 @@
                         <td>@contato.Sexo</td>
                         <td>@contato.Types.Name</td>
                         <td>@contato.Ativo</td>
-                        <td>
+                        @*<td>
                             <div class="btn-group" role="group">
                                 @Html.ActionLink("Editar", "Editar", new { id = contato.Id }) |
                                 @Html.ActionLink("Deletar", "Deletar", new { id = contato.Id })
                             </div>
-                        </td>
+                        </td>*@
                     </tr>
                 }
             }
@@ -110,10 +113,14 @@
                         <select asp-for="Contact.Sexo" class="control-label">
                             <option value="Masculino">Masculino</option>
                             <option value="Feminino">Feminino</option>
-                            <span asp-validation-for="Contact.Sexo" class="text-danger"></span>
                         </select>
 
                     </div>
+                    @*<div class="form-group">
+                    <label asp-for="Contact.TypesId" class="control-label"></label>
+                    <select asp-for="Contact.TypesId" class="form-control" asp-items="ViewBag.TypesId"></select>
+                    <a type="button" id="addTipo" class="btn btn-info btn-md" asp-controller="Type" asp-action="Index">Não encontrou o tipo?</a>
+                    </div>*@
                     <div class="form-group">
                         <label asp-for="Contact.TypesId">Tipo</label>
                         <select class="form-control" asp-for="Contact.TypesId" asp-items="@(new SelectList(Model.ListTypes, "Id", "Name"))">
@@ -126,7 +133,8 @@
                             <input class="form-check-input" asp-for="Contact.Ativo" /> @Html.DisplayNameFor(Model => Model.Contact.Ativo)
                         </label>
                     </div>
-                    <button type="submit" value="Create" class="btn btn-primary">Cadastrar</button>
+
+                    <input type="submit" value="Create" class="btn btn-primary"></input>
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                 </form>
 
@@ -138,3 +146,8 @@
     </div>
 </div>
 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

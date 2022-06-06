@@ -48,7 +48,7 @@ namespace TesteEngegraph.Migrations
                 name: "IX_Contacts_TypesId",
                 table: "Contacts",
                 column: "TypesId",
-                unique: true);
+                unique: false);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

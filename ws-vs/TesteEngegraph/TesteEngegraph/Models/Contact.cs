@@ -7,14 +7,21 @@ namespace TesteEngegraph.Models
     public class Contact
     {
         [Key]
+        [Required]
         public int Id { get; set; }
+        [Required]
         public string Nome { get; set; }
+        [Required]
         [DataType(DataType.Date)]
         public DateTime DataNascimento { get; set; }
+        [Required]
         public string Cpf { get; set; }
+        [Required]
         public string Sexo { get; set; }
         public Types Types { get; set; }
+        [Required]
         public int TypesId { get; set; }
+        [Required]
         public Boolean Ativo { get; set; } = false;
 
         public Contact()
