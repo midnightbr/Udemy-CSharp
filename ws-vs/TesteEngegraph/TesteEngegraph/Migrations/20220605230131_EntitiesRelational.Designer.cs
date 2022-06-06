@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TesteEngegraph.Database;
 
 namespace TesteEngegraph.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20220605230131_EntitiesRelational")]
+    partial class EntitiesRelational
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,8 +48,7 @@ namespace TesteEngegraph.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TypesId")
-                        .IsUnique();
+                    b.HasIndex("TypesId");
 
                     b.ToTable("Contatos");
                 });
@@ -60,7 +61,6 @@ namespace TesteEngegraph.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -71,17 +71,12 @@ namespace TesteEngegraph.Migrations
             modelBuilder.Entity("TesteEngegraph.Models.Contact", b =>
                 {
                     b.HasOne("TesteEngegraph.Models.Types", "Types")
-                        .WithOne("Contact")
-                        .HasForeignKey("TesteEngegraph.Models.Contact", "TypesId")
+                        .WithMany()
+                        .HasForeignKey("TypesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Types");
-                });
-
-            modelBuilder.Entity("TesteEngegraph.Models.Types", b =>
-                {
-                    b.Navigation("Contact");
                 });
 #pragma warning restore 612, 618
         }
