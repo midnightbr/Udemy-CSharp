@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TesteEngegraph.Database;
+using TesteEngegraph.Services;
 
 namespace TesteEngegraph
 {
@@ -27,6 +28,8 @@ namespace TesteEngegraph
         {
             services.AddControllersWithViews();
             services.AddEntityFrameworkSqlServer().AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DataBase")));
+            services.AddScoped<IContactService, ContactService>();
+            services.AddScoped<ITypeService, TypeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -41,7 +41,7 @@ namespace TesteEngegraph.Migrations
                         column: x => x.TypesId,
                         principalTable: "Types",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(

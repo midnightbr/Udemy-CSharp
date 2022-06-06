@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Common;
+@*@model IEnumerable<Contact>;*@
+@{
     ViewData["Title"] = "Contacts";
 }
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -29,51 +31,27 @@
             </tr>
         </thead>
         <tbody id="tableContact">
-            <tr>
-                <th scope="row">1</th>
-                <td>Marcos Henrique</td>
-                <td>22/09/1996</td>
-                <td>000.000.000-00</td>
-                <td>Masculino</td>
-                <td>Programador Júnior</td>
-                <td>Sim</td>
-                @*<td>
-                <div class="btn-group" role="group">
-                <a role="button" class="">Editar</a>
-                <a role="button" class="">Apagar</a>
-                </div>
-                </td>*@
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Clayton</td>
-                <td>22/09/1996</td>
-                <td>000.000.000-00</td>
-                <td>Masculino</td>
-                <td>Técnico</td>
-                <td>Sim</td>
-                @*<td>
-                <div class="btn-group" role="group">
-                <a role="button" class="">Editar</a>
-                <a role="button" class="">Apagar</a>
-                </div>
-                </td>*@
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Fabiana</td>
-                <td>22/09/1996</td>
-                <td>000.000.000-00</td>
-                <td>Masculino</td>
-                <td>Recursos Humanos</td>
-                <td>Sim</td>
-                @*<td>
-                <div class="btn-group" role="group">
-                <a role="button" class="">Editar</a>
-                <a role="button" class="">Apagar</a>
-                </div>
-                </td>*@
-            </tr>
+            @if (Model.ListContacts.Any())
+            {
+                foreach (Contact contato in Model.ListContacts)
+                {
+                    <tr>
+                        <th scope="row">@contato.Id</th>
+                        <td>@contato.Nome</td>
+                        <td>@contato.DataNascimento.ToShortDateString()</td>
+                        <td>@contato.Cpf</td>
+                        <td>@contato.Sexo</td>
+                        <td>@contato.Types.Name</td>
+                        <td>@contato.Ativo</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                @Html.ActionLink("Editar", "Editar", new { id = contato.Id }) |
+                                @Html.ActionLink("Deletar", "Deletar", new { id = contato.Id })
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
         </tbody>
     </table>
 </div>
@@ -108,72 +86,55 @@
             <div class="modal-header">
                 <h3>Novo Contato</h3>
             </div>
+
             <div class="modal-body">
-                <form>
+                <form asp-controller="Contact" asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Nome</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Alex da Silva">
+                        <label asp-for="Contact.Nome" class="control-label"></label>
+                        <input asp-for="Contact.Nome" required="" class="form-control" />
+                        <span asp-validation-for="Contact.Nome" class="text-danger"></span>
                     </div>
-                    <div class="left">
-                        <div class="form-group">
-                            <label>Data de Nascimento</label> <br />
-                            <input id="nascimento" type="date" />
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Sexo</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Masculino</option>
-                                <option>Feminino</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <input type="checkbox" id="ativo" />
-                            <label>Pessoa Ativa</label>
-                        </div>
+                    <div class="form-group">
+                        <label asp-for="Contact.DataNascimento" class="control-label"></label>
+                        <input type="date" asp-for="Contact.DataNascimento" required="" class="form-control" />
+                        <span asp-validation-for="Contact.DataNascimento" class="text-danger"></span>
                     </div>
-
-                    <div class="right">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">CPF</label>
-                            <input type="text" class="form-control cpf-mask" data-mask="000.000.000-00" id="exampleFormControlInput1" placeholder="000.000.000-00">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Tipo</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Programador</option>
-                            </select>
-                            <br />
-                            <button type="button" id="addTipo" class="btn btn-info btn-md" data-toggle="modal" data-target="#tipoAdd">Não encontrou o tipo?</button>
-                        </div>
+                    <div class="form-group">
+                        <label asp-for="Contact.Cpf" class="control-label">CPF</label>
+                        <input asp-for="Contact.Cpf" onkeypress="$(this).mask('000.000.000-00');" required="" class="form-control" />
+                        <span asp-validation-for="Contact.Cpf" class="text-danger"></span>
                     </div>
+                    <div class="form-group">
+                        <label asp-for="Contact.Sexo" class="control-label"></label>
+                        <select asp-for="Contact.Sexo" class="control-label">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <span asp-validation-for="Contact.Sexo" class="text-danger"></span>
+                        </select>
 
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Contact.TypesId">Tipo</label>
+                        <select class="form-control" asp-for="Contact.TypesId" asp-items="@(new SelectList(Model.ListTypes, "Id", "Name"))">
+                        </select>
+                        <br />
+                        <a type="button" id="addTipo" class="btn btn-info btn-md" asp-controller="Type" asp-action="Index">Não encontrou o tipo?</a>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="Contact.Ativo" /> @Html.DisplayNameFor(Model => Model.Contact.Ativo)
+                        </label>
+                    </div>
+                    <button type="submit" value="Create" class="btn btn-primary">Cadastrar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                 </form>
+
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Cadastrar</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
             </div>
+
         </div>
     </div>
 </div>
 
-<div class="modal" id="tipoAdd" data-keyboard="false" data-backdrop="static">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Novo Tipo</h3>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Tipo</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vendendor">
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Cadastrar</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-            </div>
-        </div>
-    </div>
-</div>
