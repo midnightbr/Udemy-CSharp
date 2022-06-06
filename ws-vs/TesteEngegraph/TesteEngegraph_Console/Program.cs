@@ -9,7 +9,9 @@ namespace TesteEngegraph_Console
     {
         static void Main(string[] args)
         {
+            ClientBD client = new ClientBD("Contacts");
 
+            Console.WriteLine(client.Mensage);
         }
     }
 }
