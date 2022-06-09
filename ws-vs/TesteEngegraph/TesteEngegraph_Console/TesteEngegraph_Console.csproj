@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Database\BD_Connection.cs" />
     <Compile Include="Database\ClientBD.cs" />
+    <Compile Include="Database\TriggerContact.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

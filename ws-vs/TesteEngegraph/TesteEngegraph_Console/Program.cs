@@ -9,9 +9,14 @@ namespace TesteEngegraph_Console
     {
         static void Main(string[] args)
         {
-            ClientBD client = new ClientBD("Contacts");
+            ClientBD client = new ClientBD("Logs");
+            TriggerContact trigger = new TriggerContact();
 
-            Console.WriteLine(client.Mensage);
+            int number = client.Find("Select * From Logs");
+            if (number == 0)
+            {
+                trigger.Create();
+            }
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace TesteEngegraph_Console.Database
 {
@@ -25,33 +27,53 @@ namespace TesteEngegraph_Console.Database
             }
         }
 
-        public string Buscar(string Id)
+        public DataTable CreateTable(string sql)
         {
-            Status = true;
             try
             {
-                var Sql = "SELECT * FROM Logs";
-                var dt = Db.SqlQuery(Sql);
-                if (dt.Rows.Count > 0)
-                {
-                    for (int i = 0; i < dt.Rows.Count - 1; i++)
-                    {
-                        Console.WriteLine(dt.Rows[i].ToString());
-                    }
-                }
-                else
-                {
-                    Status = false;
-                    Mensage = "Nenhum dado de log encontrado";
-                }
+                BD_Connection db = new BD_Connection();
+                SqlCommand sqlCommand = new SqlCommand(sql, db.Connection);
+                sqlCommand.ExecuteNonQuery();
+                Status = true;
 
             }
             catch (Exception e)
             {
+                Console.WriteLine("Erro ao criar tabela: " + e.Message);
                 Status = false;
-                Mensage = "Erro ao buscar conteúdo: " + e.Message;
             }
-            return "";
+
+            return null;
+        }
+
+
+        public int Find(string Sql)
+        {
+            int count = 0;
+
+            DataTable dt = new DataTable();
+            try
+            {
+                SqlCommand myCommand = new SqlCommand(Sql, Db.Connection);
+                // myCommand.CommandTimeout = 0;
+                SqlDataReader myReader = myCommand.ExecuteReader();
+                while (myReader.Read())
+                {
+                    var dados = myReader["Id"];
+                    Console.WriteLine($"Nome: {myReader["Id"]}, CPF: {myReader["DataModificacao"]}, Tipo: {myReader["Acao"]}");
+                    if (dados != null)
+                    {
+                        count++;
+                    }
+                }
+                myReader.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
+
+            return count;
         }
     }
 }

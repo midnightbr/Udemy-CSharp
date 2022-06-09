@@ -30,6 +30,7 @@ namespace TesteEngegraph
             services.AddEntityFrameworkSqlServer().AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DataBase")));
             services.AddScoped<IContactService, ContactService>();
             services.AddScoped<ITypeService, TypeService>();
+            services.AddScoped<ILogsService, LogsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

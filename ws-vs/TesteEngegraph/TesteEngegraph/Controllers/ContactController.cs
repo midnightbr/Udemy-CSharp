@@ -24,7 +24,7 @@ namespace TesteEngegraph.Controllers
         }
 
         // GET: Contacts
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
 
             Common common = new Common();

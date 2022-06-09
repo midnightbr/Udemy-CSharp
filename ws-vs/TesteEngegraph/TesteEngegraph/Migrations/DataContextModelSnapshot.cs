@@ -70,6 +70,27 @@ namespace TesteEngegraph.Migrations
                     b.ToTable("Types");
                 });
 
+            modelBuilder.Entity("TesteEngegraph.Triggers.Logs", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Acao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DataModificacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("IdContact")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logs");
+                });
+
             modelBuilder.Entity("TesteEngegraph.Models.Contact", b =>
                 {
                     b.HasOne("TesteEngegraph.Models.Types", "Types")

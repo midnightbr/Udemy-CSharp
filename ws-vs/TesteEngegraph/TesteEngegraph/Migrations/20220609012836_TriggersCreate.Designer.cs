@@ -10,8 +10,8 @@ using TesteEngegraph.Database;
 namespace TesteEngegraph.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220606164153_Add Required")]
-    partial class AddRequired
+    [Migration("20220609012836_TriggersCreate")]
+    partial class TriggersCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,6 +36,9 @@ namespace TesteEngegraph.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DataNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Nome")
@@ -70,6 +73,25 @@ namespace TesteEngegraph.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Types");
+                });
+
+            modelBuilder.Entity("TesteEngegraph.Triggers.Logs", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Acao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DataModificacao")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logs");
                 });
 
             modelBuilder.Entity("TesteEngegraph.Models.Contact", b =>

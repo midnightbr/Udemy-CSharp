@@ -25,38 +25,6 @@ namespace TesteEngegraph_Console.Database
             }
         }
 
-        public DataTable SqlQuery(string Sql)
-        {
-            DataTable dt = new DataTable();
-            try
-            {
-                var myCommand = new SqlCommand(Sql, Connection);
-                myCommand.CommandTimeout = 0;
-                var myReader = myCommand.ExecuteReader();
-                dt.Load(myReader);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error: " + e.Message);
-            }
-            return dt;
-        }
-
-        public string SqlCommand(string Sql)
-        {
-            try
-            {
-                var myCommand = new SqlCommand(Sql, Connection);
-                myCommand.CommandTimeout = 0;
-                var myReader = myCommand.ExecuteReader();
-                return "";
-            }
-            catch(Exception e)
-            {
-                throw new Exception(e.Message);
-            }
-        }
-
         public void Close()
         {
             Connection.Close();
