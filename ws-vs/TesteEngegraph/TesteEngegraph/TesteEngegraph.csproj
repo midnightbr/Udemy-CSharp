@@ -24,11 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ViewModels\" />
+    <ProjectReference Include="..\TesteEngegraph_Console\TesteEngegraph_Console.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TesteEngegraph_Console\TesteEngegraph_Console.csproj" />
+    <Folder Include="Models\ViewModels\" />
   </ItemGroup>
 
 </Project>

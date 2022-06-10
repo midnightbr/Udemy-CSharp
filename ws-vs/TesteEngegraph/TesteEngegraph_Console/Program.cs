@@ -12,10 +12,14 @@ namespace TesteEngegraph_Console
             ClientBD client = new ClientBD("Logs");
             TriggerContact trigger = new TriggerContact();
 
-            int number = client.Find("Select * From Logs");
+            int number = client.Count("Select * From Logs");
             if (number == 0)
             {
                 trigger.Create();
+            }
+            if (number > 0)
+            {
+                client.Find("Select * From Logs");
             }
         }
     }

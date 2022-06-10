@@ -9,6 +9,7 @@ namespace TesteEngegraph.Models
         private readonly ITypeService _typeService;
 
         public Contact Contact { get; set; }
+        public Types Types { get; set; }
         public List<Contact> ListContacts { get; set; } = new List<Contact>();
         public List<Types> ListTypes { get; set; } = new List<Types>();
 

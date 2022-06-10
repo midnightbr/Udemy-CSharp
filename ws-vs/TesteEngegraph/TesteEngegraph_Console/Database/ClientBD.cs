@@ -46,21 +46,19 @@ namespace TesteEngegraph_Console.Database
             return null;
         }
 
-
-        public int Find(string Sql)
+        public int Count(string sql)
         {
             int count = 0;
 
             DataTable dt = new DataTable();
             try
             {
-                SqlCommand myCommand = new SqlCommand(Sql, Db.Connection);
-                // myCommand.CommandTimeout = 0;
+                SqlCommand myCommand = new SqlCommand(sql, Db.Connection);
+                myCommand.CommandTimeout = 0;
                 SqlDataReader myReader = myCommand.ExecuteReader();
                 while (myReader.Read())
                 {
                     var dados = myReader["Id"];
-                    Console.WriteLine($"Nome: {myReader["Id"]}, CPF: {myReader["DataModificacao"]}, Tipo: {myReader["Acao"]}");
                     if (dados != null)
                     {
                         count++;
@@ -74,6 +72,29 @@ namespace TesteEngegraph_Console.Database
             }
 
             return count;
+        }
+
+
+        public DataTable Find(string Sql)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                SqlCommand myCommand = new SqlCommand(Sql, Db.Connection);
+                myCommand.CommandTimeout = 0;
+                SqlDataReader myReader = myCommand.ExecuteReader();
+                while (myReader.Read())
+                {
+                    Console.WriteLine($"ID do Contato: {myReader["Id"]}, Data Modificacao: {myReader["DataModificacao"]}, Acao: {myReader["Acao"]}");
+                }
+                myReader.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
+
+            return dt;
         }
     }
 }

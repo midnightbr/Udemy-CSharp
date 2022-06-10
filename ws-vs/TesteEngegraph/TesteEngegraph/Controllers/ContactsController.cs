@@ -1,45 +1,29 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using TesteEngegraph.Database;
 using TesteEngegraph.Models;
-using TesteEngegraph.Services;
 
 namespace TesteEngegraph.Controllers
 {
-    public class ContactController : Controller
+    public class ContactsController : Controller
     {
         private readonly DataContext _context;
-        private readonly IContactService _contatoService;
-        private readonly ITypeService _tipoService;
 
-        public ContactController(DataContext context, IContactService contatoService, ITypeService tipoService)
+        public ContactsController(DataContext context)
         {
             _context = context;
-            _contatoService = contatoService;
-            _tipoService = tipoService;
         }
 
         // GET: Contacts
-        public IActionResult Index(string Pesquisa)
+        public async Task<IActionResult> Index()
         {
-            var search = _context.Contacts.AsQueryable();
-            if(!string.IsNullOrEmpty(Pesquisa))
-            {
-                search = search.Where(x => x.Nome.Contains(Pesquisa));
-            }
-            search = search.OrderBy(x => x.Nome);
-
-
-            Common common = new Common();
-            common.ListContacts = _contatoService.GetAll();
-            common.ListTypes = _tipoService.GetAll();
             var dataContext = _context.Contacts.Include(c => c.Types);
-
-            return View(common);
+            return View(await dataContext.ToListAsync());
         }
 
         // GET: Contacts/Details/5
