@@ -24,18 +24,30 @@ namespace TesteEngegraph.Controllers
         }
 
         // GET: Contacts
-        public IActionResult Index(string Pesquisa)
+        public async Task<IActionResult> Index(string search, string column)
         {
-            var search = _context.Contacts.AsQueryable();
-            if(!string.IsNullOrEmpty(Pesquisa))
-            {
-                search = search.Where(x => x.Nome.Contains(Pesquisa));
-            }
-            search = search.OrderBy(x => x.Nome);
-
-
             Common common = new Common();
             common.ListContacts = _contatoService.GetAll();
+
+            if (column == "Contact")
+            {
+                var contacts = from contact in _context.Contacts select contact;
+                if (!string.IsNullOrEmpty(search))
+                {
+                    contacts = contacts.Where(s => s.Nome.Contains(search));
+                    common.ListContacts = await contacts.ToListAsync();
+                }
+            }
+            if (column == "Type")
+            {
+                var contacts = from contact in _context.Contacts select contact;
+                if (!string.IsNullOrEmpty(search))
+                {
+                    contacts = contacts.Where(s => s.Types.Name.Contains(search));
+                    common.ListContacts = await contacts.ToListAsync();
+                }
+            }
+
             common.ListTypes = _tipoService.GetAll();
             var dataContext = _context.Contacts.Include(c => c.Types);
 

@@ -1,5 +1,4 @@
 ﻿@model Common;
-@*@model IEnumerable<Contact>;*@
 @{
     ViewData["Title"] = "Contacts";
 }
@@ -11,7 +10,21 @@
 </div>
 
 <div class="text-center">
-    <h3>Contacts List</h3>
+    <h3>Lista de Contatos</h3>
+</div>
+
+<div>
+    <h5>Filtro</h5>
+    <form asp-controller="Contact" asp-action="Index">
+        <p>
+            <select name="column">
+                <option value="Contact">Contatos</option>
+                <option value="Type">Tipo</option>
+            </select>
+            <input type="text" name="search" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
 </div>
 
 <div>

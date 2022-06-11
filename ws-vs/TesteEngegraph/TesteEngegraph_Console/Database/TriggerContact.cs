@@ -20,23 +20,38 @@ namespace TesteEngegraph_Console.Database
                 SqlCommand sqlCommand = new SqlCommand(sql, db.Connection);
                 sqlCommand.ExecuteNonQuery();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine("Erro ao criar tabela: " + e.Message);
             }
-            
+
         }
 
         public void Create()
-        {    
-            string sql = "CREATE TRIGGER Historico_Contacts ON Contacts " +
-                    "FOR INSERT, DELETE, UPDATE AS " +
+        {
+            string sql = "CREATE TRIGGER Historico_Contacts_Add ON Contacts " +
+                    "FOR INSERT " +
+                    "AS " +
                     "BEGIN " +
-                    "INSERT INTO Logs (Id, DataModificacao, Acao) SELECT Id, DataModificacao = GETDATE(), Acao = 'INSERT' from INSERTED " +
-                    "INSERT INTO Logs (Id, DataModificacao, Acao) SELECT Id, DataModificacao = GETDATE(), Acao = 'DELETE' from DELETED " +
-                    //"SELECT Id, DataModificacao = GETDATE(), Acao = 'INSERT' from inserted " +
-                    //"SELECT Id, DataModificacao = GETDATE(), Acao = 'DELETE' from deleted " +
-                    //"SELECT Id, DataModificacao = GETDATE(), Acao = 'UPDATE' from deleted " +
+                    "INSERT INTO Logs SELECT Id, DataModificacao = GETDATE(), Acao = 'INSERT' from INSERTED " +
+                    "END;";
+            Identity();
+            Console.WriteLine(client.CreateTable(sql));
+
+            sql = "CREATE TRIGGER Historico_Contacts_Dlt ON Contacts " +
+                    "FOR DELETE " +
+                    "AS " +
+                    "BEGIN " +
+                    "INSERT INTO Logs SELECT Id, DataModificacao = GETDATE(), Acao = 'DELETE' from DELETED " +
+                    "END;";
+            Identity();
+            Console.WriteLine(client.CreateTable(sql));
+
+            sql = "CREATE TRIGGER Historico_Contacts_Up ON Contacts " +
+                    "FOR UPDATE " +
+                    "AS " +
+                    "BEGIN " +
+                    "INSERT INTO Logs SELECT Id, DataModificacao = GETDATE(), Acao = 'UPDATE' from DELETED " +
                     "END;";
             Identity();
             Console.WriteLine(client.CreateTable(sql));
