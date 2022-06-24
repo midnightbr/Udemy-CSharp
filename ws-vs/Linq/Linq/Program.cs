@@ -97,6 +97,9 @@ namespace Linq
             Console.WriteLine();
             // Aqui está a solução do problema com o filter6.
 
+            // Obs.: para que o programa não quebre com um erro, comente o filter6 no qual foi utilizado
+            // apenas para meios demonstrativos do erro ocorrendo.
+
             // Filtrando a lista, no qual queremos apenas um objeto que tenha o Id = 3,
             // no qual ele funciona apenas quando o resultado é apenas um objeto, caso haja mais de
             // um, ocorrera um erro na execução
@@ -105,8 +108,78 @@ namespace Linq
             Console.WriteLine("Single or default: " + filter8);
             Console.WriteLine();
 
-            // Obs.: para que o programa não quebre com um erro, comente o filter6 no qual foi utilizado
-            // apenas para meios demonstrativos do erro ocorrendo.
+            /*
+             * OPERAÇÕES DE AGREGAÇÃO
+             */
+
+            // Suponto que queremos descobrir qual o maior valor dentro dos objetos
+            // no entanto não sabendo qual é esse valor, basta utilizar a expressão .Max(), no qual
+            // usaremos a expressão Lambda para poder informar qual campo será utilizado para
+            // o comparativo. Caso não seja especificado qual sera o dado para comparação, ele espera que o objeto
+            // tenha implementado um criterio de comparação. Caso não haja, ele ira retorna um erro na aplicação.
+            var filter9 = products.Max(x => x.Price);
+            Console.WriteLine($"Max price: ${filter9}");
+            // Da mesma forma que temos o .Max() para selecionar o maior valor, temos também o .Min() para
+            // selecionar o menor valor dentro da lista.
+            var filter10 = products.Min(x => x.Price);
+            Console.WriteLine($"Min price: ${filter10}");
+
+            // Podemos também filtrar a lista para obter os objetos que queremos e somar os valores deles.
+            // No exemplo abaixo, filtramos para produtos que tenham um Category Id = 1 para depois especificar
+            // que queremos o total da soma de todos os objetos no campo price.
+            var filter11 = products.Where(x => x.Category.Id == 1).Sum(x => x.Price);
+            Console.WriteLine($"Category 1 sum prices: ${filter11}");
+            // Além de pegar a soma total dos valores, podemos também obter o valor da média entre todos os objetos
+            // como monstra o exemplo abaixo:
+            var filter12 = products.Where(x => x.Category.Id == 1).Average(x => x.Price);
+            Console.WriteLine($"Category 1 average price: ${filter12}");
+            // No entanto, se o resultado do objeto for nulo, acabara quebrando o código na sua execução.
+            // Para evitar tal problema, podemos usar um macete muito simples que está no código abaixo.
+            // Primeiro, usaremos o select para poder selecionar o objeto.
+            // Depois do objeto selecionado, usaremos o método .DefaultIfEmpty(com o valor default aqui dentro),
+            // assim, mesmo que o valor seja nulo, ele retornara uma valor padrão, evitando a quebra da execução.
+            // Como já selecionamos o price no select, não é necessario seleciona-lo no average.
+            var filter13 = products.Where(x => x.Category.Id == 5).Select(x => x.Price).DefaultIfEmpty(0.0).Average();
+            Console.WriteLine($"Category 5 average price: ${filter13}");
+
+            /*
+             * CRIANDO UM MÉTODO PERSONALIZADO
+             */
+            // Para criar o método personalizado, primeiro temos que selecionar o campo que iremos trabalhar,
+            // nesse caso o campo price.
+            // Após o campo selecionado, utilizamos o .Aggregate que recebe uma expressão Lambda do que
+            // deve ser feito.
+            // No exemplo abaixo, criamos uma função no qual ela somara todos os prices dos objetos que tenham o Category com
+            // o Id = 1, para efeito de comparativo com uma função que ja temos para essa mesma utilidade.
+            var filter14 = products.Where(x => x.Category.Id == 1).Select(x => x.Price).Aggregate((x, y) => x + y);
+            Console.WriteLine($"Category 1 aggregate sum: ${filter14}");
+            // Mais e se caso o objeto for nulo? Para evitar esse tipo de problema, podemos informar
+            // um valor inicial. Segue o exemplo abaixo:
+            var filter15 = products.Where(x => x.Category.Id == 5).Select(x => x.Price).Aggregate(0.0,(x, y) => x + y);
+            Console.WriteLine($"Category 5 aggregate sum: ${filter15}");
+
+            // Separando os objetos
+            Console.WriteLine();
+
+            // Podemos também agrupar os objetos de acordo com o campo que desejarmos.
+            // No qual ele retorna um objeto do tipo IEnumerable<IGrouping>, onde é um par
+            // que contem uma chave e uma coleção de objeto, nesse caso uma coleção de Product.
+            var filter16 = products.GroupBy(x => x.Category);
+            // Percorrendo o objeto recebido no filter16
+            foreach (IGrouping<Category, Product> group in filter16)
+            {
+                // No exemplo abaixo, para imprimir o nome da categoria, usamos .Key, porque
+                // a chave do IGrouping é a Category. Então Key = Category, no qual possui todos os atributos
+                // de Category.
+                Console.WriteLine($"Category {group.Key.Name}:");
+                // Agora, faremos outro foreach para podemos percorrer a coleção de objetos
+                foreach (Product product in group)
+                {
+                    // Imprimindo o objeto na tela
+                    Console.WriteLine(product);
+                }
+                Console.WriteLine();
+            }
 
             // Separando as listas
             Console.WriteLine("===============================");
