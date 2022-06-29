@@ -182,7 +182,70 @@ namespace Linq
             }
 
             // Separando as listas
-            Console.WriteLine("===============================");
+            Console.WriteLine("==================================================================");
+
+            Console.WriteLine("Linq with SQL semantics:");
+            Console.WriteLine();
+
+            // Utilizando o Linq com a semantica semelhante ao SQL
+            // result 1 = filter1 ->  ambos tem o mesmo resultado
+            var result1 = from p in products where p.Category.Tier == 1 && p.Price < 900 select p;
+            Print(message: "TIER 1 and Price < 900:", result1);
+
+            // result2 = filter2
+            var result2 = from p in products where p.Category.Name == "Tools" select p.Name;
+            Print(message: "Names of products from tools:", result2);
+
+            // result3 = filter3
+            var result3 = from p in products
+                          where p.Name[0] == 'C'
+                          select new
+                          {
+                              p.Name,
+                              p.Price,
+                              CategoryName = p.Category.Name
+                          };
+            Print(message: "Names started width 'C' and anonymous object:", result3);
+
+            // result4 = filter4
+            // Nesse caso, para organizar pelo preço e usar o nome como criterio de desempate, primeiro
+            // coloque o campo que sera usado para desempate, no caso o nome, e depois o item que sera usado para
+            // poder ser usado para ordenar a lista como primario
+            var result4 = from p in products where p.Category.Tier == 1 orderby p.Name orderby p.Price select p;
+            Print(message: "Tier 1 order by price then by name:", result4);
+
+            // result5 = filter5
+            // No caso abaixo, utilizamos a semantica parecida com SQL apenas para selecionar os objetos
+            var result5 = (from p in products select p).Skip(2).Take(4);
+            Print(message: "Tier 1 order by price then by name, skip 2 take 4:", result5);
+
+            // result6 = filter6
+            // Utiliza-se do mesmo exemplo acima citado
+            var result6 = (from p in products where p.Price > 3000.00 select p).FirstOrDefault();
+            Console.WriteLine("First or default: " + result6);
+            Console.WriteLine(); // Saltando uma linha
+
+            /**
+             * Os exemplos sitados a partir do filter5 até filter15 funcionam desta mesma forma,
+             * no qual utilizasse a semantica parecida com o SQL para selecionar o objeto, no qual o mesmo
+             * deve estar entre parenteses (), depois o método que sera aplicado naquele objeto.
+             */
+
+            // result7 = filter16
+            // Agrupando os objetos por categoria
+            var result7 = from p in products group p by p.Category;
+            foreach (IGrouping<Category, Product> group in result7)
+            {
+                Console.WriteLine($"Category {group.Key.Name}:");
+                foreach (Product product in group)
+                {
+                    Console.WriteLine(product);
+                }
+                Console.WriteLine();
+            }
+
+            // Separando as listas
+            Console.WriteLine("=========================================================");
 
             // Criando uma lista de dados para demonstrar a utilização de Linq
             int[] numbers = new int[] { 1, 2, 3, 4, 5 };
