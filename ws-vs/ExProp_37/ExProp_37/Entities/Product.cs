@@ -1,4 +1,4 @@
-﻿namespace ExProp_37.Entities
+﻿namespace Exercicio010.Entities
 {
     internal class Product
     {

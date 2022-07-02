@@ -1,11 +1,11 @@
-﻿using ExProp_37.Entities;
+﻿using Exercicio010.Entities;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace ExProp_37
+namespace Exercicio010
 {
     internal class Program
     {
